@@ -23,7 +23,7 @@ enum Capability: String {
         case .pause:
             return .pause
         case .togglePlayPause:
-            return togglePlayPause
+            return .togglePlayPause
         case .next:
             return .next
         case .previous:
